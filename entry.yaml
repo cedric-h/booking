@@ -1,0 +1,24 @@
+---
+window:
+  title: The Book of Bitter Aspects
+  width: 600
+  height: 800
+  fullscreen: false
+story:
+  Fade:
+    milliseconds: 8333
+    node: 
+      Title:
+        text: The Book Of
+        size: 50
+    then:
+      Fade:
+        milliseconds: 12500
+        node:
+          Title:
+            text: BITTER ASPECTS
+            size: 100
+        then:
+            Choices:
+                DAWN: { Choices: {} }
+                META: { Choices: {} }
